@@ -34,3 +34,4 @@ jobs:
           username: web111_blog
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./public/
+          protocol: ftps
