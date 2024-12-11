@@ -2,3 +2,5 @@ baseURL = 'https://blog.jan-berndt.de/'
 languageCode = 'en-us'
 title = 'Jan Berndt'
 theme = 'ananke'
+[markup.goldmark.renderer]
+  unsafe = true
