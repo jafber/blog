@@ -1,7 +1,11 @@
-+++
-title = 'Building a Frogwatching Camera'
-date = 2024-01-12
-+++
+---
+title: The Frog Watch
+description: How I built a Raspberry Pi streaming service from scratch.
+date: 2024-01-12
+image: frog.jpg
+params:
+    imagePosition: 53%
+---
 
 Since I moved out from home, my parents have replaced me with a total of 4 poison dart frogs. Standing in my old room is a huge glass box housing the amphibians. As a christmas present, I set up an old Raspberry Pi with a camera livestreaming the frogs' every move. Want to see what they are up to *right now*? Take a look at [frogwatch.jan-berndt.de](https://frogwatch.jan-berndt.de)!
 

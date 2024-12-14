@@ -1,7 +1,11 @@
-+++
-title = "Building Interactive Systems"
-date = 2024-07-10
-+++
+---
+title: Building Interactive Systems
+description: I assembled and programmed a haptic controller for a university lab.
+date: 2024-07-10
+image: dualpanto.png
+params:
+    imagePosition: 75%
+---
 
 A [DualPanto](https://hpi.de/baudisch/projects/dualpanto.html) is a haptic device allowing vision impaired users to apply input and receive feedback from a computer in real time using steering handles. Through the Building Interactive Systems class at the Hasso Plattner Institute, my teammate and I assembled a DualPanto, programmed parts of its firmware and developed a game for it in Unity.
 

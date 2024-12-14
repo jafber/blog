@@ -1,0 +1,4 @@
+{{ $height := .Get 1 | default "500px" }}
+<object data="{{ .Get 0 }}" type="application/pdf" width="100%" height="{{ $height }}">
+    <p>Unable to display PDF file.</p>
+</object>
