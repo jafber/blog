@@ -2,7 +2,7 @@
 {{ if .Title }}
   <figure>
     <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}">
-    <figcaption>{{ .Title }}</figcaption>
+    <figcaption>{{ .Title | emojify }}</figcaption>
   </figure>
 {{ else }}
   <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}">
