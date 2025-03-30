@@ -1,4 +1,4 @@
-baseURL: https://blog.jan-berndt.de/
+baseURL: https://jan-berndt.de/
 languageCode: en-us
 enableEmoji: true
 title: Jan Berndt
@@ -19,11 +19,6 @@ params:
     readingTime: false
 menu:
   social:
-    - weight: -5
-      name: Homepage
-      url: https://jan-berndt.de
-      params:
-        icon: fa-home
     - weight: -4
       name: E-Mail
       url: mailto:web@jan-berndt.de
@@ -39,3 +34,14 @@ menu:
       url: https://www.linkedin.com/in/jan-berndt-493a85233/
       params:
         icon: fa-linkedin
+  main: 
+    - weight: -2
+      name: Impressum
+      url: /pages/impressum
+      params:
+        icon: link
+    - weight: -1
+      name: Datenschutz
+      url: /pages/datenschutz
+      params:
+        icon: link
