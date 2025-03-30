@@ -7,6 +7,17 @@ hugo version # should be v0.139.4
 hugo server -D
 ```
 
-To combine all into one big file:
+To change theme:
+
+```
+cd themes/hugo-theme-stack
+git commit -am 'updates'
+git push
+cd ...
+git commit -am 'updates'
+git push
+```
+
+To combine all posts into one big file:
 
 `find content/posts -type f -name "*.md" -exec cat {} + > combined.tmp`
