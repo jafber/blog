@@ -6,7 +6,9 @@ params:
     imagePosition: 0%
 ---
 
-[jan-berndt.de](https://jan-berndt.de/en) is my new and improved homepage, and I'm pretty proud of how it turned out.
+Edit March 2025: I've fully switched to my blog here and stopped maintaining this homepage. However, I'm keeping it up to showcase some frontend skills.
+
+[homepage.jan-berndt.de](https://homepage.jan-berndt.de/en) is my new and improved homepage, and I'm pretty proud of how it turned out.
 
 ## The Code
 
