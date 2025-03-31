@@ -1,9 +1,27 @@
+<!-- https://discourse.gohugo.io/t/conversion-to-webp/50347/2 -->
+{{- $u := urls.Parse .Destination -}}
+{{- $src := $u.String -}}
+{{- if not $u.IsAbs -}}
+  {{- $path := strings.TrimPrefix "./" $u.Path }}
+  {{- with or (.PageInner.Resources.Get $path) (resources.Get $path) -}}
+    {{- with .Process "fit 952x952 webp drawing" -}}
+      {{- $src = .RelPermalink -}}
+      {{- with $u.RawQuery -}}
+        {{- $src = printf "%s?%s" $src . -}}
+      {{- end -}}
+      {{- with $u.Fragment -}}
+        {{- $src = printf "%s#%s" $src . -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
 <!-- https://sebastiandedeyne.com/captioned-images-with-markdown-render-hooks-in-hugo/ -->
 {{ if .Title }}
   <figure>
-    <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}">
+    <img src="{{- $src }}" alt="{{ .Text }}">
     <figcaption>{{ .Title | emojify }}</figcaption>
   </figure>
 {{ else }}
-  <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}">
+  <img src="{{- $src }}" alt="{{ .Text }}">
 {{ end }}
