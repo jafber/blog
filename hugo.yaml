@@ -12,7 +12,7 @@ params:
   mainSections: posts
   sideBar:
     title: "Hi, I'm Jan :wave:"
-    subtitle: I study IT Systems Engineering at the <a href="https://hpi.de/en/">Hasso Plattner Institute</a> and develop enterprise management software for <a href="https://newwork.com/">NEWWORK Berlin</a> on the side. Please talk to me about full stack engineering, machine learning or <a href="https://www.effectivealtruism.org/">effective altruism</a>.
+    subtitle: I study IT Systems Engineering at the <a href="https://hpi.de/en/">Hasso Plattner Institute</a> near Berlin. In 2025 I interned as a software engineer for <a href="https://aws.amazon.com/local/germany/">Amazon Web Services Germany</a>. Previously held working student positions at <a href="https://newwork.com/">NEWWORK Software</a> and <a href="https://www.pbit-systeme.de/">PBit Systeme</a>. <br/><br/> Please talk to me about full stack engineering, machine learning or <a href="https://www.effectivealtruism.org/">effective altruism</a>.
     avatar:
       src: img/avatar.webp
   article:
